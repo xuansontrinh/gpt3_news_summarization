@@ -30,9 +30,9 @@ jobs:
       - run: flutter build web --release --web-renderer=auto
         shell: bash
         working-directory: .
-      - run: echo "sml2.schnack.dev" > ./build/web/CNAME
-        shell: bash
-        working-directory: .
+#       - run: echo "sml2.schnack.dev" > ./build/web/CNAME
+#         shell: bash
+#         working-directory: .
       - run: git config user.name github-actions
         shell: bash
         working-directory: .
